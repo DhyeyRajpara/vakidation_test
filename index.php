@@ -137,13 +137,13 @@
 		$to = 'dhyeyrajpara.rao@gmail.com';
 
 		$message = "
-		お問い合わせ種別: ".$name_field."<br>
-		保護者様名: ".$email_field."<br>
-		お子さま名: ".$dob_field."<br>
-		お子さまのご年齢: ".$phone_number_field."<br>
-		ご住所: ".$password_field."<br>
-		お電話番号: ".$address_field."<br>
-		メールアドレス: ".$checkbox_field."<br>
+		Name: ".$name_field."<br>
+		Email: ".$email_field."<br>
+		DOB: ".$dob_field."<br>
+		Phone No.: ".$phone_number_field."<br>
+		Password: ".$password_field."<br>
+		Address: ".$address_field."<br>
+		Checkbox: ".$checkbox_field."<br>
 		";
 
 		$subject = "お問い合わせ: ".$name_field."";
